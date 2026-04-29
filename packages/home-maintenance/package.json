@@ -1,0 +1,51 @@
+{
+  "name": "@oliwoods/home-maintenance-mcp",
+  "version": "1.0.0",
+  "description": "AI-powered home maintenance MCP server — seasonal checklists, repair cost estimates, energy audits, contractor vetting, and home value impact analysis",
+  "keywords": [
+    "home maintenance",
+    "home repair costs",
+    "seasonal maintenance checklist",
+    "energy audit",
+    "home improvement ROI",
+    "contractor hiring",
+    "home value",
+    "MCP server",
+    "model context protocol",
+    "HVAC repair",
+    "roof repair",
+    "plumbing repair",
+    "energy efficiency",
+    "house maintenance",
+    "home equity"
+  ],
+  "author": "OliWoods Foundation <hello@oliwoods.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "home-maintenance-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}

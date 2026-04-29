@@ -1,0 +1,51 @@
+{
+  "name": "@oliwoods/pet-care-mcp",
+  "version": "1.0.0",
+  "description": "AI-powered pet care MCP server — symptom checker, breed info, training guides, nutrition planning, and insurance comparison for dogs and cats",
+  "keywords": [
+    "pet symptom checker",
+    "dog breed",
+    "cat health",
+    "pet insurance",
+    "dog training",
+    "pet nutrition",
+    "veterinary",
+    "pet care AI",
+    "MCP server",
+    "model context protocol",
+    "pet health",
+    "dog care",
+    "cat care",
+    "animal health",
+    "pet diet"
+  ],
+  "author": "OliWoods Foundation <hello@oliwoods.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "pet-care-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
