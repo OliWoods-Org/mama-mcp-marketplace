@@ -1,0 +1,48 @@
+{
+  "name": "@oliwoods/fitness-coach-mcp",
+  "version": "1.0.0",
+  "description": "AI personal fitness coach — workout generation, macro calculation, exercise library, body composition tracking, and progressive overload planning",
+  "keywords": [
+    "fitness",
+    "workout generator",
+    "macro calculator",
+    "personal trainer",
+    "progressive overload",
+    "body composition",
+    "exercise library",
+    "strength training",
+    "hypertrophy",
+    "nutrition",
+    "MCP server",
+    "model context protocol"
+  ],
+  "author": "Oli Woods <support@oliwoods.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "fitness-coach-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
