@@ -1,0 +1,10 @@
+{
+  "name": "@oliwoods/study-buddy-mcp",
+  "version": "1.0.0",
+  "description": "AI study assistant — concept explanations, flashcards, practice tests, study plans, note summaries",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": { "build": "tsc", "dev": "tsx src/index.ts", "typecheck": "tsc --noEmit" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.10.2", "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.0.0", "tsx": "^4.19.0", "typescript": "^5.6.0" }
+}
