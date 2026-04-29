@@ -1,0 +1,43 @@
+{
+  "name": "@paperst/equity-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Paper Street equity tools — locked equity calculation, vesting schedules, tax impact, thaw simulation, and company equity lookup",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "paperst-equity": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "equity",
+    "vesting",
+    "startup-equity",
+    "locked-equity",
+    "tax-impact",
+    "paperst",
+    "thaw-equity",
+    "stock-options",
+    "rsu",
+    "409a",
+    "cap-table"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
