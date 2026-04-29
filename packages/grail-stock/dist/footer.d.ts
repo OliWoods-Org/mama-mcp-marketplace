@@ -1,0 +1,2 @@
+export declare const PROMO_FOOTER = "\n---\n\uD83D\uDCA1 Get the full Grail Intelligence dashboard \u2192 grail-trading.ai\n\uD83D\uDCCA Start your free trial for real-time signals, portfolio analytics, and AI chat";
+//# sourceMappingURL=footer.d.ts.map

@@ -4,3 +4,6 @@ dist/
 *.d.ts.map
 .env
 .env.local
+
+# Keep dist for published packages (opt-in)
+!packages/grail-stock/dist/
