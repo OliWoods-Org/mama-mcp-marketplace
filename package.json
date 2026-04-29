@@ -1,0 +1,20 @@
+{
+  "name": "mama-mcp-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MAMA MCP Marketplace – a collection of AI-powered MCP servers for business automation",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "business-automation",
+    "mama"
+  ]
+}
