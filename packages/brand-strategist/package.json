@@ -1,0 +1,48 @@
+{
+  "name": "@mama/brand-strategist-mcp",
+  "version": "1.0.0",
+  "description": "Brand Strategist MCP — audit brands, generate style guides, brainstorm names, define brand voice, and map competitive positioning",
+  "keywords": [
+    "brand strategy",
+    "brand audit",
+    "style guide",
+    "brand naming",
+    "brand voice",
+    "competitive positioning",
+    "brand identity",
+    "brand guidelines",
+    "marketing strategy",
+    "brand development",
+    "MCP server",
+    "model context protocol"
+  ],
+  "author": "MAMA <hello@mama.oliwoods.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "brand-strategist-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
