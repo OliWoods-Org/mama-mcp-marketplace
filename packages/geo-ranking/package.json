@@ -1,0 +1,48 @@
+{
+  "name": "@mama/geo-ranking-mcp",
+  "version": "1.0.0",
+  "description": "GEO & AI search visibility MCP — audit AI presence, optimize content for LLM citation, track competitors in AI search, and build AI search strategy",
+  "keywords": [
+    "GEO",
+    "generative engine optimization",
+    "AI search",
+    "AI visibility",
+    "LLM SEO",
+    "citation optimization",
+    "AI content strategy",
+    "SearchGPT",
+    "Perplexity SEO",
+    "AI overview",
+    "MCP server",
+    "model context protocol"
+  ],
+  "author": "MAMA <hello@mama.oliwoods.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "geo-ranking-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
