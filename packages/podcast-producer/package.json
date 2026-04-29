@@ -1,0 +1,45 @@
+{
+  "name": "@mama/podcast-producer-mcp",
+  "version": "1.0.0",
+  "description": "Podcast production MCP — plan episodes, research guests, write show notes, find clips, and grow your audience",
+  "keywords": [
+    "podcast",
+    "episode planning",
+    "guest research",
+    "show notes",
+    "podcast growth",
+    "content creator",
+    "audio production",
+    "MCP server",
+    "model context protocol"
+  ],
+  "author": "Mama <support@oliwoods.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mama-podcast-producer-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
