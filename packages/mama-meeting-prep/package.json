@@ -1,0 +1,45 @@
+{
+  "name": "@mama/meeting-prep-mcp",
+  "version": "1.0.0",
+  "description": "AI-powered meeting preparation MCP server – attendee research, agenda building, talking points, follow-up emails, and meeting summaries",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "mama-meeting-prep": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "meeting-preparation",
+    "agenda-builder",
+    "meeting-notes",
+    "follow-up-email",
+    "business-meetings",
+    "meeting-summary",
+    "action-items",
+    "attendee-research",
+    "talking-points",
+    "executive-assistant",
+    "meeting-automation",
+    "ai-meeting-assistant",
+    "mama"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "@mama/hiring-mcp",
+  "version": "1.0.0",
+  "description": "AI-powered hiring and recruiting MCP server – job postings, resume screening, interview questions, salary benchmarks, and offer letters",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "mama-hiring": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "hiring",
+    "recruiting",
+    "job-posting",
+    "resume-screening",
+    "interview-questions",
+    "salary-benchmark",
+    "offer-letter",
+    "talent-acquisition",
+    "hr-automation",
+    "compensation-benchmarking",
+    "technical-screening",
+    "behavioral-interview",
+    "ai-recruiter",
+    "mama"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}

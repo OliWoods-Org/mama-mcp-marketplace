@@ -1,0 +1,46 @@
+{
+  "name": "@mama/tax-prep-mcp",
+  "version": "1.0.0",
+  "description": "AI-powered tax preparation MCP server – receipt scanning, deduction finding, quarterly estimates, mileage, and tax calendar for freelancers and self-employed professionals",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "mama-tax-prep": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tax-preparation",
+    "tax-deductions",
+    "self-employed-taxes",
+    "quarterly-taxes",
+    "receipt-scanner",
+    "freelancer-taxes",
+    "mileage-deduction",
+    "1099-contractor",
+    "business-expenses",
+    "irs-deadlines",
+    "tax-calendar",
+    "small-business-taxes",
+    "ai-tax-assistant",
+    "mama"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
