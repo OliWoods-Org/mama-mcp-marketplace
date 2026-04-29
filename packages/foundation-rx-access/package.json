@@ -1,0 +1,41 @@
+{
+  "name": "@foundation/rx-access-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for prescription drug access — find patient assistance programs, check eligibility, compare drug costs, and locate pharmacies",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "foundation-rx-access": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "prescription",
+    "drug-costs",
+    "patient-assistance",
+    "pharmacy",
+    "rx-access",
+    "medication-affordability",
+    "copay",
+    "foundation",
+    "oliwoods"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}

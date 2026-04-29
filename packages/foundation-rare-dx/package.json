@@ -1,0 +1,41 @@
+{
+  "name": "@foundation/rare-dx-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for rare disease support — symptom matching, clinical trial finder, gene lookup, and specialist locator",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "foundation-rare-dx": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "rare-disease",
+    "clinical-trials",
+    "genetics",
+    "orphan-disease",
+    "symptom-matching",
+    "specialist",
+    "gene-lookup",
+    "foundation",
+    "oliwoods"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
