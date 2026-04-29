@@ -1,0 +1,10 @@
+{
+  "name": "@mama/client-feedback-mcp",
+  "version": "1.0.0",
+  "description": "Customer feedback systems — NPS surveys, CSAT tracking, feature requests, feedback widgets, sentiment analysis, churn prediction",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": { "build": "tsc", "dev": "tsx src/index.ts", "typecheck": "tsc --noEmit" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.10.2", "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.0.0", "tsx": "^4.19.0", "typescript": "^5.6.0" }
+}
