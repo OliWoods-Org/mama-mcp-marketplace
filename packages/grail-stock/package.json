@@ -1,0 +1,52 @@
+{
+  "name": "@grail/stock-signals-mcp",
+  "version": "1.0.0",
+  "description": "AI-powered stock market signals MCP server — stock signals, VaR calculator, earnings calendar, sector rotation, disruption analysis, and market sentiment",
+  "keywords": [
+    "stock signals",
+    "market analysis",
+    "VaR calculator",
+    "portfolio risk",
+    "earnings calendar",
+    "sector rotation",
+    "market sentiment",
+    "stock screener",
+    "AI trading",
+    "disruption analysis",
+    "options flow",
+    "MCP server",
+    "model context protocol",
+    "quantitative finance",
+    "technical analysis"
+  ],
+  "author": "Grail Intelligence <support@grail-trading.ai>",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "grail-stock-signals-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
