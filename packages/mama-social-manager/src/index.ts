@@ -252,7 +252,7 @@ server.tool(
     const set = matchedCategory ? hashtagSets[matchedCategory] : hashtagSets.startup;
 
     // Mix by strategy
-    const { min: _min, max: _max, optimal } = hashtagCount[platform] ?? hashtagCount.instagram;
+    const { optimal } = hashtagCount[platform] ?? hashtagCount.instagram;
     let selected: string[] = [];
 
     if (strategy === "broad_reach") {
