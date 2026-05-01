@@ -209,7 +209,7 @@ server.tool("hashtag_optimizer", "Generate a ranked, optimized set of hashtags f
     const matchedCategory = Object.keys(hashtagSets).find((k) => textLower.includes(k) || (niche && niche.toLowerCase().includes(k)));
     const set = matchedCategory ? hashtagSets[matchedCategory] : hashtagSets.startup;
     // Mix by strategy
-    const { min: _min, max: _max, optimal } = hashtagCount[platform] ?? hashtagCount.instagram;
+    const { optimal } = hashtagCount[platform] ?? hashtagCount.instagram;
     let selected = [];
     if (strategy === "broad_reach") {
         selected = set.broad.concat(["#viral", "#trending", "#fyp"]).slice(0, optimal);
